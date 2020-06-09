@@ -7,9 +7,9 @@ Our task this week was to merge two datasets, identify the missing values (NaN),
 
 2 - I reviewed/explored those datsets for NaN values, then I did a horizontal stack merging the two datasets.
 
-3 - Next, our new DataFrame "horizontal_stck" was explored for missing values. I used the "isnull().sum()" syntax to show the counts of missing values (NaN) per object with the merged dataset.
+3 - Next, our new DataFrame "horizontal_stck" was explored for missing values. I used the "isnull().sum()" syntax to show the counts of missing values (NaN) per object within the merged dataset.
 
-4 - I used the "fillna" syntax to replace all NaN values with "zeros" filling in all those gaps in the merged dataset.
+4 - Then, I used the "fillna" syntax to replace all NaN values with "zeros" filling in all those gaps in the merged dataset.
 
 5 - Nest, I used the "isnull().sum()" syntax to again show the null value counts per object. This time the output showed no NaN values for any of the objects within our merged DataFrame. 
 
